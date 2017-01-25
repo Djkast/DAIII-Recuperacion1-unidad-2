@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Operation</string>
+    <string name="insert_y">Insert Y</string>
+    <string name="solve">Solve</string>
+    <string name="insert_x">Insert X</string>
+    <string name="operation">Operation</string>
+</resources>
