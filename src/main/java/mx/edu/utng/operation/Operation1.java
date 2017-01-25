@@ -36,7 +36,7 @@ public class Operation1 extends AppCompatActivity {
             public void onClick(View v) {
                 int x = Integer.valueOf(etX.getText().toString());
                 int y = Integer.valueOf(etY.getText().toString());
-                int result =((6*(x*x)*(y))-(8*(x)*(y*y))/(2*(x)*(y)))+((x*x*x)+(2*(x*x)*(y*y))/((x*x)*(y*y)));
+                int result =((6*(x*x)*(y))-(8*(x)*(y*y))/(2*(x)*(y)))+((x*x*x)+(2*(x*x)*(y*y*y))/((x*x)*(y*y)));
                 tvImpResult.setText(""+result);
             }
         });
